@@ -1,0 +1,38 @@
+.section-main{
+	height:calc(100vh - 60px);
+	display: flex;
+	align-items: center;
+	user-select:none;
+}
+.section-main h1{
+	font-size: 60px;
+	transition: .5s ease-out;
+	transform: translateY(-100%);
+}
+.section-main h2{
+	font-size: 20px;
+	font-weight: 200px;
+	transition: .8s ease-out;
+	transform: translateY(100%);
+}
+.section-main h1.-animated,
+.section-main h2.-animated {
+	transform: translateY(0);
+}
+.title,.subtitle{
+	overflow:hidden;
+}
+canvas {
+  display: block;
+  vertical-align: bottom;
+  position: absolute;
+}
+#particles-js {
+  position: absolute;
+  width: 100%;
+  background-color: #b61924;
+  background-image: url(""); /*сюда можеш вставиь картинку на фон*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}

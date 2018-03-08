@@ -1,0 +1,36 @@
+@font-face {
+	font-family: "Mont";
+	src: url("../fonts/Mont/Mont_Bold.otf");
+	font-weight: 900;
+}
+
+@font-face {
+	font-family: "Mont";
+	src: url("../fonts/Mont/Mont_Light.otf");
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "Mont";
+	src: url("../fonts/Mont/Mont_Regular.otf");
+	font-weight: normal;
+}
+
+body, h1, h2, h3, h4, p, a ,ul{
+	margin: 0;
+	font-family: "Mont";
+}
+
+a, input ,button{
+	text-decoration: none;
+	outline: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	
+}
